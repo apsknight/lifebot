@@ -73,6 +73,16 @@ Example: `/doctor/shaheed nagar bhubaneswar` returns
 ## NLP Engine
 NLP Engine is hosted on Heroku and use `node-nlp` library for Natural Language Processing. It takes statement from user and returns possible symptoms over a REST API.
 
+For Installation:
+```
+cd NLP
+npm install
+heroku create
+git push heroku master
+```
+
+Running at Localhost
+go to localhost:5000/text=<statement>
 
 Endpoint: https://fathomless-ridge-45332.herokuapp.com/text=<STATEMENT_HERE>
 
