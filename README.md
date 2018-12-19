@@ -1,5 +1,7 @@
 # LifeBot
 
+A Telegram Bot supported by NLP Engine to find disease from symptoms, search for possible self care, medications, disease details and specialization. Also shows the list of nearby doctors who can help in this regard. APIMEDIC APIs are used for finding disease details from symptoms and Google Search has been used for finding possible medical care that can be given to patient.
+
 ## Installation
 Install all dependencies
 ```bash
@@ -87,13 +89,18 @@ go to localhost:5000/text=<statement>
 Endpoint: https://fathomless-ridge-45332.herokuapp.com/text=<STATEMENT_HERE>
 
 ## Chat Bot
-Chat Bot is designed using Telegram Bot Wrapper
+Chat Bot is designed using Telegram Bot Wrapper. It get data from Flask server and communicate with user accordingly. Currently supports 4 languages namely, English, Hindi, Marathi, Bangla but can be extended to all 24 Indian languages supported by Google Translate API.
+
+## Frontend Prototype
+Created using Codeigniter, a UI prototype for a native app for the Bot.
 
 ## Credits
 - Google Search for finding medical conditions and nearest doctor from location.
+- Google Translate for translating messages from English to Other languages and vice versa.
 - APIMedic API for finding disease based on Symptoms
 - `node-nlp` library for Natural Language Processing
-- Telegram Python Wrapper for creating chat bot for Telegram
+- `python-telegram-bot` Wrapper for creating chat bot for Telegram.
+- Codeignitor for designing UI Prototype of Native app for the Bot.
 
 ## LICENSE
 - GPLv3
