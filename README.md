@@ -2,11 +2,23 @@
 
 A Telegram Bot supported by NLP Engine to find disease from symptoms, search for possible self care, medications, disease details and specialization. Also shows the list of nearby doctors who can help in this regard. APIMEDIC APIs are used for finding disease details from symptoms and Google Search has been used for finding possible medical care that can be given to patient.
 
+Live Demo: https://tinyurl.com/bbshack249 (English), https://www.youtube.com/watch?v=5lzG7TvwUzI (Hindi) 
+
+
 ## Installation
 Install all dependencies
 ```bash
 pip install -r requirements.txt
 ```
+
+## How to Run
+- Creata a telegram bot wrapper usingTelegram Bot Builder (GodFather Bot of Telegram) and obtain the bot Token.
+- Put Token in `bot.py`
+- Run Bot Server by following command,
+```
+python3 bot.py
+```
+- Communicate to Chat Bot using Telegram Chat Bot.
 
 ## Configuration
 This API uses APIMEDIC Api for medical queries. To access APIMEDIC api Sign Up on <https://apimedic.com>, and set following environment variables with credentials available at <https://apimedic.com/apikeys>.
