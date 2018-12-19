@@ -141,7 +141,7 @@ def main():
     # Create the EventHandler and pass it your bot's token.
     print('Starting..!')
     logger.info("Waking Up Bot.")
-    updater = Updater("701018798:AAE9JAKeK6agZ-4nZOXHbOoGxm4SM_T_Jo4")
+    updater = Updater("Token")
 
     # Get the dispatcher to register handlers
     dp = updater.dispatcher
